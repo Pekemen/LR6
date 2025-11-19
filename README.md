@@ -86,5 +86,6 @@ git checkout -b vetka
 - Использован markdown синтаксис
 ### 15. История операций в форматированном виде
 ```bash
-git log --pretty=format:"%h %ad %an %s" --date=short (screenshots/git-log.png)
+git log --pretty=format:"%h %ad %an %s" --date=short 
 ```
+![](screenshots/git-log.png)
