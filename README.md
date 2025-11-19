@@ -37,6 +37,7 @@ git clone https://github.com/your-username/LR6.git
 git log --oneline --all
 git log --oneline --graph --all
 ```
+![](screenshots/git-7.png)
 ### 8. Просмотр последних изменений
 ```bash
 git show
@@ -71,12 +72,14 @@ git commit -m "добавил файл конфигурации config.yaml"
 ```
 ### 12. Откат коммита
 ```bash
-git revert 1d363ea
+git revert HEAD
 ```
+![](screenshots/revert.png)
 ### 13. Создание ветки для отчёта
 ```bash
-git checkout -b report
+git checkout -b vetka
 ```
+![](screenshots/vetka.png)
 ### 14. Оформление отчёта
 - Создан файл README.md
 - Добавлены скриншоты в папку screenshots
