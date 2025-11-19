@@ -23,11 +23,11 @@
 ```bash
 git config --global user.name "4414 Зубков А.А."
 git config --global user.email "toutatis278@mail.ru"
-
+```
 ### 5.Клонирование репозитория
 ```bash
 git clone https://github.com/your-username/LR6.git
-
+```
 ### 6.Добавление файла через GitHub
 -Добавлен файл через веб-интерфейс GitHub
 -Получены изменения в локальный репозиторий
@@ -36,10 +36,11 @@ git clone https://github.com/your-username/LR6.git
 ```bash
 git log --oneline --all
 git log --oneline --graph --all
-
+```
 ### 8.Просмотр последних изменений
 ```bash
 git show
+```
 ### 9.Выполнение слияния с разрешением конфликта
 ```bash
 # создание ветки
@@ -55,6 +56,7 @@ git merge new-feature
 # разрешение конфликта
 git add .
 git commit -m "Разрешение конфликта в файле newfile"
+```
 ### 10.Удаление побочной ветки
 ```bash
 git branch -d new-feature
@@ -65,16 +67,19 @@ git commit -m "добавил описание в beb.md"
 git commit -m "создал папку bib и добавил main.py"
 git commit -m "добавил раздел записи в beb"
 git commit -m "добавил файл конфигурации config.yaml"
+```
 ### 12.Откат коммита
 ```bash
 git revert 1d363ea
+```
 ### 13.Создание ветки для отчёта
 ```bash
 git checkout -b report
+```
 ### 14.Оформление отчёта
 -Создан файл README.md
 -Добавлены скриншоты в папку screenshots
 -Использован markdown синтаксис
 ### 15.История операций в форматированном виде
 ```bash
-git log --pretty=format:"%h %ad %an %s" --date=short (screenshots/git-log.png)
+git log --pretty=format:"%h %ad %an %s" --date=short (screenshots/git-log.png)```
